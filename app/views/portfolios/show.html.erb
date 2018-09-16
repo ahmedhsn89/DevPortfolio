@@ -1,0 +1,17 @@
+
+<%= @portfolio_items.title %>
+
+<p>
+  <strong>Body:</strong>
+  <%= @portfolio_items.subtitle %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @portfolio_items.body %>
+</p>
+
+<p>
+  <strong>Main Image:</strong>
+  </p>
+  <%=image_tag @portfolio_items.main_image unless @portfolio_items.main_image.nil? %>
